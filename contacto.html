@@ -1,1 +1,86 @@
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Teoria General De Sistemas</title>
+    <link href="img/TGS.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="css/style.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/906591f70c.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<link rel="stylesheet" href="css/dark.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navegacion">
+        <ul class="menu">
+  				<li><a href="index.html"><p><i class="fa-solid fa-desktop"></i> Inicio</p></a></li>
+  				<li><a href="#"><p><i class="fa-solid fa-file"></i> Contenido Academico</p></a>
+            <ul class="submenu2">
+  						<li><a href="Primercorte.html">Primer Corte</a></li>
+  						<li><a href="segundocorte.html">Segundo Corte</a></li>
+  						<li><a href="tercercorte.html">Tercer Corte</a></li>
+  					</ul>
+          </li>
+  				<li><a href="#"><p><i class="fa-solid fa-file-code"></i> Contenido Profesional</p></a>
+            <ul class="submenu1">
+  						<li><a href="Primercorte2.html">Primer Corte</a></li>
+  						<li><a href="Segundocorte2.html">Segundo Corte</a></li>
+  						<li><a href="Tercercorte2.html">Tercer Corte</a></li>
+  					</ul>
+  				</li>
+  				<li><a href="contacto.html"><p><i class="fa-brands fa-gg"></i> Contacto</p></a></li>
+          <li>
+            <div class="modo" id="modo">
+              <p><i class="fas fa-toggle-on"></i>Modo Oscuro</p>
+          </div>
+        </li>
+  			</ul>
+  		</nav>
+    </header>
+    <div class="container">
+        <form>
+            <h1>Contactanos</h1>
+            <input type="text" placeholder="Nombre De Usuario" maxlength="10" >
+            <input type="text" placeholder="Correo" maxlength="30" >
+            <textarea placeholder="Mensaje" maxlength="120" ></textarea>
+            <br></br>
+            <center><a class="boton" onclick="boton()">Enviar Mensaje</a></center>
+            <script type="text/javascript">
+              function boton() {
+                swal ("¡ Gracias ! " , " ...¡Es Muy Importante Tu Opinion Para Nosotros! ", "success");
+              }
+
+            </script>
+        </form>
+    </div>
+    <footer class="pie-pagina">
+      <div class="grupo-1">
+        <div class="box">
+          <figure>
+            <a href="#">
+              <img src="img/logo.png" alt="Teoria General De Sistema">
+            </a>
+          </figure>
+        </div>
+        <div class="box">
+          <h3>SOBRE NOSOTROS</h3>
+          <p>Cristian Guarin</p>
+          <p>Harol Guarnizo</p>
+          <p>Duvan Santamaria</p>
+        </div>
+        <div class="box">
+          <h3>SIGUENOS</h3>
+          <div class="red-social">
+            <a href="#" class="fa-brands fa-facebook"></a>
+            <a href="#" class="fa-brands fa-instagram"></a>
+            <a href="#" class="fa-brands fa-twitter"></a>
+            <a href="#" class="fa-brands fa-youtube"></a>
+          </div>
+        </div>
+      </div>
+      <div class="grupo-2">
+        <small><i class="fa-regular fa-copyright"></i> 2022 <b>TGS</b> - Todos los Derechos Reservado</small>
+      </div>
+    </footer>
+  <script src="js/main.js"></script>
+  </body>
+</html>
