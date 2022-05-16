@@ -1,0 +1,255 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background: #E0F1FF;
+  font-family: sans-serif;
+  position: relative;
+  font-size: 18px;
+}
+
+header{
+	width: 100%;
+	position: sticky;
+	top: 20px
+}
+
+.navegacion{
+	width: 100%;
+	margin: 30px auto;
+	background: #B5DEFF;
+	box-shadow: rgb(81 84 100 / 43%) 0px 0px 10px 8px;
+}
+
+.navegacion ul{
+	list-style: none;
+  text-align: center;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu1{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu1 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+  text-align: center;
+}
+
+.menu li:hover .submenu1{
+	visibility: visible;
+	opacity: 1;
+}
+
+.submenu2{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu2 li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+  text-align: center;
+}
+
+.menu li:hover .submenu2{
+	visibility: visible;
+	opacity: 1;
+}
+
+/*text*/
+
+.text{
+  width: 1200px;
+	margin: 30px auto;
+	text-align: justify;
+}
+.text1{
+  width: 1200px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+/*img*/
+#img{
+margin: 30px auto;
+display: flex;
+justify-content: center;
+}
+.imagen img{
+	width: 130px;
+	float: left;
+	margin: 5 25;
+}
+/*pie de pagina*/
+footer{
+  width: 100%;
+}
+.pie-pagina{
+  width: 100%;
+	background: #B5DEFF;
+	box-shadow: rgb(81 84 100 / 43%) 0px 0px 10px 8px;
+}
+.pie-pagina .grupo-1{
+  width: 100%
+	max-width: 1200px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 50px;
+	padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+	width: 250px;
+}
+.pie-pagina .grupo-1 .box h3{
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+	margin-bottom: 10px;
+	color: #483f3f;
+}
+.pie-pagina .grupo-1 .red-social a{
+	display: inline-block;
+	text-decoration: none;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	margin-right: 10px;
+	color: #fff;
+	background-color: #81c5d3;
+	text-align: center;
+	transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+	color: aqua;
+}
+.pie-pagina .grupo-2{
+	background-color: #81c5d3;
+	padding: 15px 10px;
+	text-align: center;
+	color: #483f3f;
+}
+.pie-pagina .grupo-2 small{
+	font-size: 15px;
+}
+/*Contacto*/
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    width: 40%;
+    height: 80%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0,0,0,0.8) 0px 0px 50px;
+    border-radius: 10px;
+}
+
+input, textarea{
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 5px 0px;
+    width: 80%;
+    margin: 20px;
+    transition: all 300ms;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+		background: rgb(255, 255, 255);
+}
+
+input:focus, textarea:focus{
+    border-bottom-color: #610061 ;
+}
+
+
+.boton{
+    border: none;
+    outline: none;
+		background-color: #75c6ff;
+    padding: 15px;
+    width: 200px;
+    color: white;
+    border-radius: 2px;
+    box-shadow: rgb(81 84 100 / 43%) 0px 0px 10px 8px;
+    margin: 20px 0px;
+    cursor: pointer;
+    transition: all 300ms;
+    justify-content: center
+}
+
+.boton:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(0,0,0,0.9) 0px 0px 10px;
+}
+/* tabla */
+table{
+	width: 100%;
+	text-align: justify;
+}
+thead{
+	background-color: #c6e9f5;
+}
+
+th, td{
+	border: solid 1px black;
+	padding: 3px;
+}

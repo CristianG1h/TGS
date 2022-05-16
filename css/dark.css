@@ -1,0 +1,88 @@
+#modo{
+    width: 150px;
+    font-size: 20px;
+    margin: auto;
+    cursor: pointer;
+}
+.dark{
+    background: rgb(4, 24, 27);
+}
+.dark .pie-pagina .grupo-1 .box p{
+	margin-bottom: 10px;
+	color: #ada8a8;
+}
+.dark .pie-pagina .grupo-2{
+	background-color: #1a4754;
+	padding: 15px 10px;
+	text-align: center;
+	color: #ffffff;
+}
+.dark .pie-pagina .grupo-1 .red-social a{
+	display: inline-block;
+	text-decoration: none;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	margin-right: 10px;
+	color: #fff;
+	background-color: #1a4754;
+	text-align: center;
+	transition: all 300ms ease;
+}
+.dark .pie-pagina .grupo-1 .red-social a:hover{
+	color: aqua;
+}
+.dark h1{
+    color: white;
+}
+.dark h3{
+    color: white;
+}
+.dark li{
+  color: rgb(211, 211, 211);
+}
+.dark thead{
+	background-color: rgb(16, 43, 51);
+}
+.dark tbody{
+  background-color: rgb(28 54 62);
+}
+.dark th{
+	color: rgb(209, 208, 208);
+}
+.dark td{
+	color: rgb(209, 208, 208);
+}
+.dark .p{
+    color: rgb(209, 208, 208);
+}
+.dark #modo{
+    color: orange;
+}
+.dark .ore{
+  color: orange;
+}
+.dark .navegacion{
+    background: rgb(16, 43, 51);
+}
+.dark .pie-pagina{
+  background: rgb(16, 43, 51);
+}
+.dark p{
+    color: rgb(211, 211, 211);
+}
+.dark h2{
+    color: white;
+}
+.dark form{
+    background: rgb(16, 43, 51);
+}
+.dark input{
+    background-color: transparent;
+}
+.dark textarea{
+  background-color: transparent;
+}
+.dark a{
+  background-color: transparent;
+}
